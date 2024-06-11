@@ -72,4 +72,6 @@ p {
     line-height: 1;
     border: 1px solid #323CC4;
     box-shadow: 0 0 2px 0 rgba(255, 255, 255, 0.5);
+    /*Align-self == Align button left/middle/right */
+    /*align-self: flex-end; */
 }
