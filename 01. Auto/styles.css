@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 4em 6em;
+}
+
+html {
+    font: 12px/ 1.5 "Poppins", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font: 18px/ 1.5 "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    padding-bottom: 1em;
+}
+
+.content p {
+    padding-bottom: 2em;
+}
+
+.reputations img {
+    display: block;
+    max-width: 60px;
+    height: 60px;
+}
+
+.media img {
+    display: block;
+    max-width: 420px;
+    height: 380px;
+}
+
+article .content {
+    flex: 1 1 auto;
+}
+
+article .media {
+    flex: 0 0 320px;
+}
+
+article {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    gap: 5em;
+}
+
+.reputations {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75em;
+}
+
+.reputations .divider{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.reputations .info{
+    display: flex;
+    flex-direction: column;
+}
