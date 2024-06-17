@@ -1,0 +1,62 @@
+@media screen and (max-width: 600px) {
+
+    .main-nav {
+        display: none;
+    }
+
+    .hero-head {
+        background: black;
+        padding-left: 1em;
+        padding-right: 1em;
+        text-align: center;
+        min-height: 650px;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .hero-head h1 {
+        font-size: 40px;
+        padding-left: 1em;
+    }
+
+    .hero-head .goal {
+        align-items: stretch;
+        float: none;
+        max-width: 100%;
+    }
+
+    .content-wrap {
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+
+    .button {
+        padding: 10px 12em;
+    }
+
+    .content-wrap-full {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .sponsors h3 {
+        font-size: 62px;
+        padding-bottom: 0.5em;
+    }
+
+    .sponsors .module-text {
+        margin: 10px 0 30px;
+    }
+
+    .main-foot .wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-foot .bottom {
+        padding-left: 18em;
+    }
+}
