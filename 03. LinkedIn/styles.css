@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top center;
+}
+
+.container {
+    max-width: 1450px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 28px;
+}
+
+/* Header Section == 1st section */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    max-height: 50px;
+}
+
+header img {
+    width: 120px;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+
+header .buttons {
+    display: block;
+    margin: 0.5em 1em;
+    gap: 1em;
+    flex: 0 0 200px;
+}
+
+
+header .Join.btn {
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: gray;
+}
+
+header .Sign.btn {
+    padding: 0.5em 1em;;
+    border: 1px solid;
+    border-color: #80B0DF;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #338CD5;
+}
+
+/* Welcome Section == 2nd section */
+
+.welcome.section {
+    display: flex;
+    line-height: 3em;
+}
+
+.welcome.section h2 {
+    color: #338CD5;
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 0.25em;
+}
+
+.welcome.section .email {
+    margin-bottom: 1em;
+}
+
+.welcome.section input {
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.welcome.section p {
+    color: gray;
+}
+
+.welcome.section .btn {
+    padding: 1em 13em;
+    background: #0A66C2;
+    border: none;
+    border-radius: 40px;
+    color: white;
+}
+
+.welcome.section .welcome.picture {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+
+.welcome.section img {
+    padding-top: 1em;
+    padding-right: 14em;
+    display: block;
+    width: 150%;
+    height: auto;
+}
+
+.welcome.section .content {
+    flex: 1 1 auto;
+}
+
+.welcome.section .media {
+    flex: 0 0 690px;
+}
+
+/* Jobs Section == 3rd Section */ 
+
+.job.section {
+    display: flex;
+    padding-bottom: 4em;
+    padding-right: 8em;
+    gap: 10em;
+}
+
+.job.section h2 {
+    font-weight: normal;
+}
+
+.job.section p {
+    color: gray;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.job.section li {
+    display: flex;
+    margin: 0.5em;
+    flex-direction: row;
+    padding: 0.5em 0.7em;
+    background: #E6E5E4;
+    border-radius: 40px;
+    align-items: center;
+}
+
+.job.section ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.job.section a {
+    text-decoration: none;
+    color: black;
+}
+
+.job.section .suggestions {
+    display: block;
+    max-width: 400px;
+}
+
+/* Post job Section == 4th Section */ 
+
+.post.job {
+    display: flex;
+    gap: 2em;
+    padding: 3em 0;
+    background: #F1ECE5;
+}
+
+.post.job h2 {
+    color: #B44526;
+    font-weight: bold;
+}
+
+.post.job a {
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Open work Section == 5th Section */ 
+.open.work {
+    padding-top: 7em;
+    display: flex;
+    gap: 4em;
+    line-height: 1.5em;
+}
+
+.open.work img {
+    width: 350px;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+
+.open.work h2 {
+    color: #2B78C9;
+    font-weight: normal;
+}
