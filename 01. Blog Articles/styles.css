@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "Helvetica", sans-serif;
+}
+
+body {
+    background: #66B9F8;
+    padding: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font: 18px/1.5 "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1125px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-size: 30px;
+}
+
+h3 {
+    color: #FFA32C;
+    padding-bottom: 0.5em;
+}
+
+.card {
+    max-width: 299px;
+    height: auto;
+    background: white;
+    border-radius: 10px;
+}
+
+.card .content {
+    padding: 1em;
+}
+
+.card .mainImg {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.timers {
+    display: flex;
+    gap: 0.5em;
+    color: #ACACAC;
+}
+
+.card .big.paragraph {
+    padding-top: 0.5em;
+}
+
+.card a::after {
+    display: inline-block;
+    content: '>';
+    font-size: 20px;
+    color: #FFA32C;
+    padding-left: 0.5em;
+}
+
+.card a {
+    color: #FFA32C;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.cards-list {
+    display: flex;
+    gap: 2em;
+    padding-bottom: 3.5em;
+}
+
+.last-btn {
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    float: right;
+}
