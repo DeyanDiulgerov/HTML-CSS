@@ -1,0 +1,245 @@
+/* Global */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 'Helvetica', sans-serif;
+}
+
+body, input, button, textarea {
+    font: inherit;
+    max-width: 1920px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font: 26px/1.5 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1650px;
+    margin: 0 auto;
+    padding: 0 170px;
+}
+
+/* Header section - 1st section */
+
+header {
+    background: #41BEAD;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    gap: 1em;
+    list-style: none;
+    align-items: center;
+}
+
+header ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+header img {
+    display: block;
+    width: 65px;
+    height: 51px;
+}
+
+
+/* Trainer section - 2nd section */
+
+.trainers {
+    background: #FFB402;
+    color: white;
+    text-align: center;
+    padding: 3em 0;
+}
+
+.trainers .container {
+    max-width: 790px;
+}
+
+.trainers h2 {
+    padding-bottom: 1em;
+    font-weight: bold;
+}
+
+/* About trainers section - 3rd section  */
+
+.about-trainers {
+    padding-top: 5em;
+    padding-bottom: 16em;
+}
+
+.about-trainers img {
+    display: block;
+    max-width: 245px;
+    height: auto;
+    border: 8px solid #41BEAD;
+    border-radius: 50%;
+}
+
+.about-trainers .list-trainers {
+    display: flex;
+    gap: 3em;
+}
+
+.about-trainers .trainer-section {
+    display: flex;
+    gap: 2em;
+}
+
+.about-trainers h3 {
+    color: #41BEAD;
+}
+
+.about-trainers .title {
+    color: #CCD0DA;
+    padding-bottom: 1em;
+}
+
+/* Bonus trainers section - 4th section  */
+
+.bonus-trainers {
+    padding-bottom: 8em;
+}
+
+.bonus-trainers img {
+    display: block;
+    max-width: 245px;
+    height: 245px;
+    border: 8px solid #41BEAD;
+    border-radius: 50%;
+}
+
+.bonus-trainers .bonus-list-trainers {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2em;
+}
+
+.bonus-trainers h3 {
+    color: #41BEAD;
+}
+
+.bonus-trainers .title {
+    color: #CCD0DA;
+}
+
+/* Be apart section - 5th section */
+
+.be-apart {
+    border-top: 15px solid rgb(255,255,255,0.3);
+    background: #66B9F8;
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 8em;
+}
+
+.be-apart h2 {
+    text-align: center;
+}
+
+.be-apart p {
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 2em;
+}
+
+.be-apart .list-items {
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    justify-content: space-evenly;
+}
+
+.field {
+    position: relative;
+}
+
+.field input {
+    display: block;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 1em;
+    line-height: 1;
+    outline: none;
+}
+
+.field label {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1em;
+}
+
+.list-items .field {
+    flex: 1 1 auto;
+}
+
+form input[type="submit"] {
+    box-shadow: 0 0 1em 0 rgb(0,0,0,0.4);
+    display: block;
+    width: 100%;
+    max-width: 165px;
+    height: auto;
+    background: #FF9100;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 40px;
+    padding: 1rem 2rem;
+}
+
+/* Footer section - 6th section */
+.site-footer {
+    border-top: 15px solid rgb(255,255,255,0.3);
+    background: #565656;
+    color: white;
+    padding: 2% 0;
+}
+
+.site-footer .links {
+    display: flex;
+    flex-direction: column;
+}
+
+.site-footer .list-items {
+    display: flex;
+    gap: 4em;
+}
+
+.site-footer h4 {
+    padding-bottom: 1em;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.site-footer a {
+    text-decoration: none;
+    color: white;
+    line-height: 2em;
+}
+
+.site-footer .icons-list {
+    display: flex;
+    gap: 1em;
+}
+
+.site-footer i {
+    font-size: 2rem;
+}
