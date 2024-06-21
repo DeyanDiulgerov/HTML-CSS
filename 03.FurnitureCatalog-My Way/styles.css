@@ -1,0 +1,244 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i&amp;display=swap );
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 20px/1.5 'PT Sans', sans-serif;
+}
+
+body, input, button, textarea {
+    font: inherit;
+}
+
+body {
+    max-width: 1920px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1660px;
+    margin: 0 auto;
+}
+
+/* Header/Upper section - 1st section */
+
+header img {
+    display: block;
+    width: 135px;
+    height: 135px;
+}
+
+.upper-section {
+    background-image: url(images/background.jpg);
+    background-position: center -20em;
+    background-size: 1920px auto;
+    background-repeat: no-repeat;
+}
+
+.upper-section .container {
+    max-width: 1340px;
+}
+
+.upper-section ul {
+    display: flex;
+    list-style: none;
+    gap: 1em;
+    align-items: center;
+}
+
+.upper-section header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upper-section a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Intro section - 2nd section (it is apart of 1st section though) */
+.intro-section .container {
+    max-width: 1145px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 160px;
+}
+
+.intro-section h2 {
+    font-size: 62px;
+    margin-bottom: 1rem;
+}
+
+.intro-section p {
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 1.5em;
+}
+
+.intro-section a {
+    background: #E7EEF0;
+    color: #707485;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+}
+
+/* First catalog section - 3rd section */
+.first-catalog {
+    padding: 2em 0 0 0;
+    background: #60ACC1;
+}
+
+.first-catalog .container {
+    padding-bottom: 2em;
+}
+
+.first-catalog img {
+    position: relative;
+    width: 370px;
+    height: 300px;
+}
+
+.first-catalog .catalog-header {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.first-catalog .cards-list {
+    display: flex;
+    gap: 4em;
+}
+
+.first-catalog .card {
+    height: 100%;
+    width: auto;
+    display: flex;
+    box-shadow: 0 0 1em 0 rgb(0,0,0,0.4);
+    border-right: 10px solid #60ACC1;
+}
+
+.first-catalog .content {
+    background: white;
+    padding: 3em 2em;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+
+.first-catalog h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.first-catalog .catalog-header p {
+    padding-bottom: 1em;
+}
+
+/* Furniture section - 4th section  */
+.furniture {
+    padding: 2em;
+}
+
+.furniture img {
+    display: block;
+    width: 160px;
+    height: auto;
+    aspect-ratio: 1/1;
+    margin-left: 8em;
+}
+
+.furniture .list-furnitures {
+    display: flex;
+    gap: 4em;
+}
+
+.furniture .card {
+    flex: 1 1 30%;
+    text-align: center;
+}
+
+.furniture h3 {
+    padding-bottom: 0.5em;
+    color: #67686B;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.furniture p {
+    color: #67686B;
+}
+
+/* Second catalog section - 5th section  */
+.second-catalog {
+    padding: 2em 8em;
+    background: #60ACC1;
+}
+
+.second-catalog .catalog-header {
+    text-align: center;
+}
+
+.second-catalog h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.second-catalog .catalog-header p {
+    padding-bottom: 2em;
+}
+
+.second-catalog img {
+    display: block;
+    max-width: 450px;
+    height: auto;
+    box-shadow: 0 0 1em 0 rgb(0,0,0,2.5);
+}
+
+.second-catalog .cards-list {
+    display: flex;
+    gap: 5em;
+}
+
+
+/* About us section - 6th section  */
+.about-us {
+    padding: 2em;
+    text-align: center;
+}
+
+.about-us .container {
+    max-width: 1075px;
+    margin: 0 auto;
+}
+
+.about-us h3 {
+    color: #67686B;
+}
+
+.about-us p {
+    color: #67686B;
+}
+
+.about-us .under-h3 {
+    padding-bottom: 2em;
+}
+
+
+/* Footer section - 7th section  */
+.site-footer {
+    background: #2D333C;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
