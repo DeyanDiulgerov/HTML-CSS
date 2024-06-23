@@ -1,0 +1,52 @@
+@media(max-width: 600px) {
+
+    header img {
+        padding-bottom: 1em;
+    }
+
+    header nav {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    header ul {
+        padding-bottom: 0.5em;
+    }
+
+    .header-title {
+        padding: 0;
+    }
+
+    .our-dogs-wrapper p,
+    .our-dogs-wrapper h3 {
+        text-align: center;
+    }
+
+    .our-dogs-wrapper {
+        text-align: center;
+        flex: 0 0 auto;
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our-dogs-wrapper ul {
+        padding: 0 32px;
+    }
+
+    .our-dogs ul li img {
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
+        width: 220px;
+        height: auto;
+        aspect-ratio: 1/1;
+    }
+
+    .helpNeed ul {
+        flex-direction: column;
+    }
+}
