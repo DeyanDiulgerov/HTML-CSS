@@ -1,0 +1,261 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 19px/1.5 'Lato', sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font: 30px/1.5 'Montserrat', sans-serif;
+}
+
+/* Header section - 1st section */
+
+header img {
+    display: block;
+    width: 100px;
+    height: 57px;
+}
+
+header ul {
+    display: flex;
+    gap: 2.5em;
+    padding: 0.7em 1em;
+    align-items: center;
+}
+
+header {
+    background: #000000;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Upper green section - 2nd section */
+
+.upper-green {
+    background: #1DB954;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 14em;
+}
+
+.upper-green h2 {
+    font-weight: bold;
+    color: white;
+}
+
+.image-music {
+    display: block;
+    position: absolute;
+    max-width: 865px;
+    max-height: 681px; 
+    left: 22.5%;
+    top: 75%;
+    transform: translate(-50%, -89%)
+}
+
+/* Subscription plans section - 3rd section */
+
+.cards-list {
+    display: flex;
+    position: absolute;
+    justify-content: space-evenly;
+    gap: 11.5em;
+    position: relative;
+    max-width: 1270px;
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.cards-list .container {
+    padding: 0 2em;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cards-list .separator {
+    border-right: 1px solid white;
+    padding-right: 8px;
+}
+
+.cards-list h2 {
+    font-weight: bold;
+    padding-bottom: 1em;
+    text-align: center;
+    color: #54546D;
+}
+
+.card li {
+    color: #54546D;
+}
+
+.cards-list ul {
+    list-style: circle;
+}
+
+.cards-list .card-end {
+    background: #191414;
+    color: white;
+    padding: 1em 1.5em;
+    gap: 1em;
+    display: flex;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.cards-list .card-end p {
+    font-size: 25px;
+    color: white
+}
+
+.cards-list .card {
+    background: white;
+    max-width: 525px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgb(0,0,0,0.8);
+}
+.card-end .solo-price {
+    padding-left: 5em;
+}
+
+.cards-list .card .container {
+    padding: 2em;
+}
+
+.cards-list .card ul {
+    padding-bottom: 1em;
+}
+
+.cards-list .card a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: #1DB954;
+    padding: 0.5em 1em;
+    color: white;
+    border-radius: 50px;
+}
+
+.cards-list .card .btn-helper {
+    padding: 0 4em;
+}
+
+/* Dogo Pal section - 4th section */
+
+.dogo-pal .container {
+    max-width: 1690px;
+    margin: 0 auto;
+    display: flex;
+    gap: 4em;
+    padding-bottom: 4em;
+}
+
+.dogo-pal img {
+    max-width: 460px;
+    height: 275px;
+}
+
+.dogo-pal h3 {
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 1em;
+}
+
+.dogo-pal p {
+    padding-bottom: 1em;
+}
+
+/* Premium benefits section - 5th section */
+
+.premium-benefits .container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding-bottom: 4em;
+}
+
+.premium-benefits img {
+    display: block;
+    width: 25px;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+
+.single-benefit-gray-first {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0.5em;
+    display: flex;
+    background: #CCCBCB;
+    justify-content: space-between;
+}
+
+.premium-benefits .single-benefit-gray {
+    padding: 0.5em;
+    display: flex;
+    background: #CCCBCB;
+    justify-content: space-between;
+}
+
+.premium-benefits .single-benefit-green {
+    padding: 0.5em;
+    display: flex;
+    background: #81D8A0;
+    justify-content: space-between;
+}
+
+.single-benefit-green-last {
+    padding: 0.5em;
+    display: flex;
+    background: #81D8A0;
+    justify-content: space-between;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.premium-benefits .title {
+    text-align: center;
+}
+
+.premium-benefits .title p {
+    padding-bottom: 2em;
+}
+
+.premium-benefits h2 {
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 0.75em;
+}
+
+.premium-benefits .marks {
+    display: flex;
+    gap: 8em;
+    padding-right: 5em;
+}
+
+/* Footer section - 6th Section */ 
+
+footer {
+    text-align: center;
+    background: #191414;
+    color: white;
+    padding: 1.5em;
+}
